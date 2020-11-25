@@ -47,9 +47,9 @@ class WelcomeViewCoordinator {
 			return
 		}
 
-		guard LogInUtils.shared.validateEmail(email) else {
-			return
-		}
+//		guard LogInUtils.shared.validateEmail(email) else {
+//			return
+//		}
 
 		// To be placed in completion
 
