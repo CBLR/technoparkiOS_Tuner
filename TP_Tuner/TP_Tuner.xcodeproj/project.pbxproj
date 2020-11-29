@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		06AED21023C91F3F01FB64C9 /* Pods_TP_Tuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6596E121CA771C48B34E9D6D /* Pods_TP_Tuner.framework */; };
+		9B07F7C82572D3D4006F7C53 /* HomeViewControllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B07F7C72572D3D4006F7C53 /* HomeViewControllers.storyboard */; };
+		9B07F7CC2572D8B4006F7C53 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F7CB2572D8B4006F7C53 /* HomeTableViewCell.swift */; };
+		9B07F7D02572D9E1006F7C53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07F7CF2572D9E1006F7C53 /* HomeViewController.swift */; };
 		9B107C0025513B3900A2EAD9 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B107BFF25513B3900A2EAD9 /* RequestAPI.swift */; };
 		9B107C1625513E4500A2EAD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B107C1525513E4500A2EAD9 /* GoogleService-Info.plist */; };
 		9B107C1E2551B22D00A2EAD9 /* AuthenticationMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B107C1D2551B22D00A2EAD9 /* AuthenticationMananger.swift */; };
@@ -36,6 +39,9 @@
 /* Begin PBXFileReference section */
 		5556BEEFC4EB84E7B6F38C3B /* Pods-TP_Tuner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TP_Tuner.release.xcconfig"; path = "Target Support Files/Pods-TP_Tuner/Pods-TP_Tuner.release.xcconfig"; sourceTree = "<group>"; };
 		6596E121CA771C48B34E9D6D /* Pods_TP_Tuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TP_Tuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B07F7C72572D3D4006F7C53 /* HomeViewControllers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewControllers.storyboard; sourceTree = "<group>"; };
+		9B07F7CB2572D8B4006F7C53 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		9B07F7CF2572D9E1006F7C53 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9B107BFF25513B3900A2EAD9 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		9B107C1525513E4500A2EAD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B107C1D2551B22D00A2EAD9 /* AuthenticationMananger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMananger.swift; sourceTree = "<group>"; };
@@ -82,6 +88,24 @@
 				6596E121CA771C48B34E9D6D /* Pods_TP_Tuner.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B07F7C62572D3BA006F7C53 /* HomeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B07F7CA2572D899006F7C53 /* Private */,
+				9B07F7C72572D3D4006F7C53 /* HomeViewControllers.storyboard */,
+				9B07F7CF2572D9E1006F7C53 /* HomeViewController.swift */,
+			);
+			path = HomeViewControllers;
+			sourceTree = "<group>";
+		};
+		9B07F7CA2572D899006F7C53 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				9B07F7CB2572D8B4006F7C53 /* HomeTableViewCell.swift */,
+			);
+			path = Private;
 			sourceTree = "<group>";
 		};
 		9B107BFE25513B2200A2EAD9 /* RequestAPI */ = {
@@ -140,6 +164,7 @@
 				9B107C1C2551B21100A2EAD9 /* Model */,
 				9B85AB622549EDC90018DCC8 /* GenreSelectionControllers */,
 				9B85AB5025493BC60018DCC8 /* ArtistsSelectionControllers */,
+				9B07F7C62572D3BA006F7C53 /* HomeViewControllers */,
 				9B85AB4A2548774F0018DCC8 /* WelcomeControllers */,
 				9B85AB46254875850018DCC8 /* UIKIt+Helpers */,
 				9B716E802529C87000A48A28 /* AppDelegate.swift */,
@@ -268,6 +293,7 @@
 				9B716E8D2529C87200A48A28 /* LaunchScreen.storyboard in Resources */,
 				9B107C1625513E4500A2EAD9 /* GoogleService-Info.plist in Resources */,
 				9B716E8A2529C87200A48A28 /* Assets.xcassets in Resources */,
+				9B07F7C82572D3D4006F7C53 /* HomeViewControllers.storyboard in Resources */,
 				9B85AB642549EEDE0018DCC8 /* GenreSelectionController.storyboard in Resources */,
 				9B85AB5225493BF80018DCC8 /* ArtistsSelectionController.storyboard in Resources */,
 				9B716E882529C87000A48A28 /* Welcome.storyboard in Resources */,
@@ -325,10 +351,12 @@
 			files = (
 				9B85AB67254A04D00018DCC8 /* GenreSelectionViewController.swift in Sources */,
 				9B85AB6B254A05D80018DCC8 /* GenreSelectionViewCell.swift in Sources */,
+				9B07F7D02572D9E1006F7C53 /* HomeViewController.swift in Sources */,
 				9BA2B622256C53D200E8B9FB /* ErrorManager.swift in Sources */,
 				9B85AB4C2548776F0018DCC8 /* WelcomeViewCoordinator.swift in Sources */,
 				9B4C4598256D9607003AB293 /* Genre.swift in Sources */,
 				9B716E852529C87000A48A28 /* WelcomeViewController.swift in Sources */,
+				9B07F7CC2572D8B4006F7C53 /* HomeTableViewCell.swift in Sources */,
 				9B4C459B256D96F4003AB293 /* SimpleDataProcessor.swift in Sources */,
 				9B716E812529C87000A48A28 /* AppDelegate.swift in Sources */,
 				9B85AB482548759F0018DCC8 /* LogInUtils.swift in Sources */,

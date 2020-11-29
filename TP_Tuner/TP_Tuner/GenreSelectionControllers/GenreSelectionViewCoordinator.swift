@@ -16,8 +16,6 @@ class GenreSelectionViewCoordinator {
 		var selectedGenres = [Genre]()
 	}
 	
-//	var genres = [Genre]()
-	
 	weak var viewCtrl: GenreSelectionViewController?
 	
 	var model = GenreCollectionViewModel()
@@ -33,6 +31,8 @@ class GenreSelectionViewCoordinator {
 	func querryGenres(_ completion: @escaping CompletionCallback) {
 		
 		RequestAPI.getAllGenresList([:]) { [weak self] response in
+			
+//			guard let self = self else { return }
 			
 			switch response {
 			case let .success(snapshot):

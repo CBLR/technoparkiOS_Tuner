@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "820FF6EE-969C-4E02-BEC6-3E7F8B3E16B4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CDB03F2-4703-4A88-87FA-699418EB0E54"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8CDB03F2-4703-4A88-87FA-699418EB0E54 - 95a9c80d485d73b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TP_Tuner.GenreSelectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "8CDB03F2-4703-4A88-87FA-699418EB0E54 - 7d2026e4cb119e51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in TP_Tuner.GenreSelectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00265AF7-DC7E-466B-BD10-F33C4058456F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/Model/RequestAPI/RequestAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "wrappedValue"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81A54B0D-EF4A-4A77-A132-C91C9B7CECD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/Model/SimpleDataProcessor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "processGenreSnapshot(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61C30D5B-A67A-49FC-9B54-9D4B28166641"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3D4A51F-8247-4B51-A735-C16B64D0BB3D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B7878F8-EDF2-46E6-872E-4E59B691DDF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B7878F8-EDF2-46E6-872E-4E59B691DDF7 - 7d2026e4cb119ef6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in TP_Tuner.GenreSelectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "5B7878F8-EDF2-46E6-872E-4E59B691DDF7 - 72fe389b2830b1ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Bool) -&gt; () in TP_Tuner.GenreSelectionViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/GenreSelectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A80550A6-2373-4B3A-AD7F-8B69D5BC5878"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/Private/GenreSelectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "updateView(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A80550A6-2373-4B3A-AD7F-8B69D5BC5878 - e113dd2fca5a5e41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in TP_Tuner.GenreSelectionViewCell.(updateView in _4E6797A2980712CA8B196EE88BCAA891)(TP_Tuner.Genre) -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/Private/GenreSelectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "A80550A6-2373-4B3A-AD7F-8B69D5BC5878 - d21dbdf25116d7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in TP_Tuner.GenreSelectionViewCell.(updateView in _4E6797A2980712CA8B196EE88BCAA891)(TP_Tuner.Genre) -&gt; ()"
+                  moduleName = "TP_Tuner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romababajanyan/Desktop/_mstu/techno_proj/technoparkiOS_Tuner/TP_Tuner/TP_Tuner/GenreSelectionControllers/Private/GenreSelectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED34F5FD-299E-4176-8FE9-E5915839C0EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/Private/GenreSelectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "item"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EDEEEC1-022D-46CF-B5FB-9A9D216FFA28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "didDeselect(genre:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF00A2A7-E64D-4277-BA2C-E6EACAFF8799"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TP_Tuner/GenreSelectionControllers/GenreSelectionViewCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "didSelect(genre:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

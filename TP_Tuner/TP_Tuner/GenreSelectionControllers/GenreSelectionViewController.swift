@@ -28,10 +28,18 @@ class GenreSelectionViewController: UIViewController {
 		genreSelectionViewCoordinator?.querryGenres{ [weak self] success in
 			guard let self = self else { return }
 			
+			// hide progress view
+			
 			performOperation {
 				self.genreSelectionCollectionView.reloadData()
 			}
 		}
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		
+		// show progress view
 	}
 	
 	override func viewWillLayoutSubviews() {

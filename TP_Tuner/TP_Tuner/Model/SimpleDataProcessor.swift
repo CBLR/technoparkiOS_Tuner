@@ -26,28 +26,10 @@ class SimpleDataProcessor {
 
 	var decoder: JSONDecoder!
 	var encoder: JSONEncoder!
-//	var serialiser: JSONSerialization!
 	
 	init() {
 		decoder = JSONDecoder()
 		encoder = JSONEncoder()
-//		serialiser = JSONSerialization()
-	}
-	
-	func processSnapshot<T: Codable>(_ snapshot: DataSnapshot) -> T? {
-		
-		guard let jsonData = snapshot.data else {
-			return nil
-		}
-		
-		do {
-			let object = try decoder.decode(T.self, from: jsonData)
-			return object
-		} catch let error {
-			NSLog("[\(String(describing: self))]: %s", error.localizedDescription)
-		}
-		
-		return nil
 	}
 	
 	func processGenreSnapshot(_ snapshot: DataSnapshot) -> [Genre]? {
@@ -73,11 +55,31 @@ class SimpleDataProcessor {
 		
 		return genres
 	}
+	
+//	func processTextSnapshot(_ snashot: DataSnapshot) -> Text?
+	
 	func encodeObject<T: Codable>(_ object: T) -> Data? {
 		
 		do {
 			let encodedData = try encoder.encode(object)
 			return encodedData
+		} catch let error {
+			NSLog("[\(String(describing: self))]: %s", error.localizedDescription)
+		}
+		
+		return nil
+	}
+	
+	
+	func processSnapshot<T: Codable>(_ snapshot: DataSnapshot) -> T? {
+		
+		guard let jsonData = snapshot.data else {
+			return nil
+		}
+		
+		do {
+			let object = try decoder.decode(T.self, from: jsonData)
+			return object
 		} catch let error {
 			NSLog("[\(String(describing: self))]: %s", error.localizedDescription)
 		}
